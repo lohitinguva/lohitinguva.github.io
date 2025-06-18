@@ -1,10 +1,10 @@
-<h3>{{ title }}</h3>
+<h3>{{ include.title }}</h3>
 
-<p>Data for {{ title }}:</p>
+<p>Data for {{ include.title }}:</p>
 <pre>
-{% if title == "Programming Skills" %}
+{% if include.title == "Programming Skills" %}
   {{ site.data.programming-skills | jsonify }}
-{% elsif title == "Other Skills" %}
+{% elsif include.title == "Other Skills" %}
   {{ site.data.other-skills | jsonify }}
 {% else %}
   No data found for this title.
@@ -12,9 +12,9 @@
 </pre>
 
 <ul>
-  {% if title == "Programming Skills" %}
+  {% if include.title == "Programming Skills" %}
     {% assign skills = site.data.programming-skills %}
-  {% elsif title == "Other Skills" %}
+  {% elsif include.title == "Other Skills" %}
     {% assign skills = site.data.other-skills %}
   {% else %}
     {% assign skills = [] %}
