@@ -1,11 +1,12 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
-
-- name: Go
-  percentage: 80
-  color:
-
 - name: Python
-  percentage: 70
-  color: secondary
+  level: 90
+- name: SQL
+  level: 85
+- name: Databricks
+  level: 90
+- name: SAP Data Intelligence
+  level: 95
+- name: AWS Glue
+  level: 80
+- name: Redshift
+  level: 85
