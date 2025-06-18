@@ -17,8 +17,8 @@ Outside work, I’m a passionate about **cricket**, F1 enthusiast, and love expl
 ---
 
 <div class="row">
-  {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-  {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+  {% include about/skills.html title="Programming Skills" %}
+{% include about/skills.html title="Other Skills" %}
 </div>
 
 <div class="row">
