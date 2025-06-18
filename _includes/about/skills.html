@@ -1,16 +1,4 @@
 <h3>{{ include.title }}</h3>
-
-<p>Data for {{ include.title }}:</p>
-<pre>
-{% if include.title == "Programming Skills" %}
-  {{ site.data.programming-skills | jsonify }}
-{% elsif include.title == "Other Skills" %}
-  {{ site.data.other-skills | jsonify }}
-{% else %}
-  No data found for this title.
-{% endif %}
-</pre>
-
 <ul>
   {% if include.title == "Programming Skills" %}
     {% assign skills = site.data.programming-skills %}
