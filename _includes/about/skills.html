@@ -1,5 +1,17 @@
 <h3>{{ title }}</h3>
+<ul>
+  {% if title == "Programming Skills" %}
+    {% assign skills = site.data.programming-skills %}
+  {% elsif title == "Other Skills" %}
+    {% assign skills = site.data.other-skills %}
+  {% else %}
+    {% assign skills = [] %}
+  {% endif %}
 
-<pre>
-{{ source | jsonify }}
-</pre>
+  {% for skill in skills %}
+    <li>
+      <span class="skill-name">{{ skill.name }}</span>:
+      <span class="skill-level">{{ skill.level }}%</span>
+    </li>
+  {% endfor %}
+</ul>
