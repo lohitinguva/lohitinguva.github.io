@@ -1,49 +1,39 @@
-title: "Lohit Inguva"
-description: "Data Engineer | Cloud Architect | Analytics Consultant"
-email: "lohitinguva@gmail.com"
-baseurl: ""  
+remote_theme: YoussefRaafatNasry/portfolYOU
+
+title: Lohit Inguva - Data Engineer & Cloud Architect
+email: lohit.inguva@gmail.com
+description: Cloud and data engineering professional with 9+ years of experience delivering enterprise-scale, cloud-native data pipelines and integrations. Specialized in building
+
+baseurl: ""
 url: "https://lohitinguva.github.io"
 
-# Author details
-author:
-  name: "Lohit Inguva"
-  avatar: "/assets/images/profile.jpg"
-  location: "USA"
-  email: "lohitinguva@gmail.com"
-  resume: "/assets/files/Lohit_Inguva_Resume.pdf"
-  linkedin: "lohitinguva"
-  github: "lohitinguva"
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
-# Theme and layout
-theme: jekyll-theme-minimal
-markdown: kramdown
+nav:
+  - name: Home
+    link: /
+  - name: Projects
+    link: /projects/
+  - name: Blog
+    link: /blog/
+  - name: About
+    link: /about/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
 
-paginate: 5
-paginate_path: "/page:num"
+markdown: kramdown
+kramdown:
+  input: GFM
 
-# Site navigation links (optional)
-navigation:
-  - name: "Home"
-    link: "/"
-  - name: "Projects"
-    link: "/projects"
-  - name: "Resume"
-    link: "/assets/files/Lohit_Inguva_Resume.pdf"
-  - name: "GitHub"
-    link: "https://github.com/lohitinguva"
-  - name: "LinkedIn"
-    link: "https://linkedin.com/in/lohitinguva"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
-# Footer (optional)
-footer:
-  copyright:
-    text: "© 2025 Lohit Inguva. All rights reserved."
-
-# Google Analytics (optional)
-google_analytics: ""  # Add your GA ID if you have one
+permalink: pretty
