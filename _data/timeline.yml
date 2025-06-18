@@ -1,17 +1,25 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
+- title: Principal Data Consultant (Nike)
   from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  to: Present
+  description: Consulting directly with Nike through my own company. Leading large-scale data engineering and modernization initiatives across AWS, Databricks, SAP Data Intelligence, and Redshift. Focused on automation, performance optimization, and building scalable, cloud-native data platforms.
+
+- title: SAP Data Engineer – Florida Power & Light (FPL)
+  from: 2017
+  to: 2018
+  description: 
+    - Enhanced SAP process chain performance by 50% by optimizing ABAP code for financial reporting.
+    - Reduced ETL processing times by 30% and data latency by over 50% through SAP SLT configuration and load optimization.
+    - Executed SAP BW model redesign, accelerating financial report delivery by 35%.
+    - Led a system upgrade that improved overall stability and UX by 20%.
+    - Delivered training programs that improved SAP feature adoption by 40%.
+    - Ensured system reliability via change ticket management and rigorous QA testing.
+
+- title: M.S. in Information Technology and Management
+  from: 2020
+  to: 2021
+  description: Campbellsville University — Focused on IT strategy, cloud infrastructure, and systems management.
+
+- title: M.S. in Electrical and Computer Engineering
+  from: 2015
+  to: 2017
+  description: University at Buffalo (SUNY) — Specialized in data systems, embedded software, and computing infrastructure.
