@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Hi, I'm Lohit 👋
 subtitle: Cloud & Data Engineer | Architect | Consultant
 avatar: /assets/images/profile.jpg
