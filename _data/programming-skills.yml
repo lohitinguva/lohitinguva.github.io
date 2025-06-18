@@ -1,12 +1,23 @@
 - name: Python
   level: 90
+  icon: /assets/icons/python.svg
+
 - name: SQL
   level: 85
+  icon: /assets/icons/sql.svg
+
 - name: Databricks
   level: 90
+  icon: /assets/icons/databricks.svg
+
 - name: SAP Data Intelligence
   level: 95
+  icon: /assets/icons/sap.svg
+
 - name: AWS Glue
   level: 80
+  icon: /assets/icons/aws.svg
+
 - name: Redshift
   level: 85
+  icon: /assets/icons/redshift.svg
