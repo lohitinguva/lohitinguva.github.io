@@ -1,0 +1,49 @@
+title: "Lohit Inguva"
+description: "Data Engineer | Cloud Architect | Analytics Consultant"
+email: "lohitinguva@gmail.com"
+baseurl: ""  
+url: "https://lohitinguva.github.io"
+
+# Author details
+author:
+  name: "Lohit Inguva"
+  avatar: "/assets/images/profile.jpg"
+  location: "USA"
+  email: "lohitinguva@gmail.com"
+  resume: "/assets/files/Lohit_Inguva_Resume.pdf"
+  linkedin: "lohitinguva"
+  github: "lohitinguva"
+
+# Theme and layout
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/page:num"
+
+# Site navigation links (optional)
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Resume"
+    link: "/assets/files/Lohit_Inguva_Resume.pdf"
+  - name: "GitHub"
+    link: "https://github.com/lohitinguva"
+  - name: "LinkedIn"
+    link: "https://linkedin.com/in/lohitinguva"
+
+# Footer (optional)
+footer:
+  copyright:
+    text: "© 2025 Lohit Inguva. All rights reserved."
+
+# Google Analytics (optional)
+google_analytics: ""  # Add your GA ID if you have one
