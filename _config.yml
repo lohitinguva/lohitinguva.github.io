@@ -1,17 +1,22 @@
 remote_theme: YoussefRaafatNasry/portfolYOU
 
+# Site settings
 title: Lohit Inguva - Data Engineer & Cloud Architect
 email: lohit.inguva@gmail.com
-description: Cloud and data engineering professional with 9+ years of experience delivering enterprise-scale, cloud-native data pipelines and integrations. Specialized in building
+description: >
+  Portfolio of Lohit Inguva, specializing in data engineering, cloud architecture, and analytics consulting.
 
-baseurl: ""
+# Base URL and destination folder
+baseurl: "" # no subpath
 url: "https://lohitinguva.github.io"
 
+# Collections
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
+# Navigation menu
 nav:
   - name: Home
     link: /
@@ -22,18 +27,22 @@ nav:
   - name: About
     link: /about/
 
+# Plugins (add if you need)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Markdown processing
 markdown: kramdown
 kramdown:
   input: GFM
 
+# Build settings
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
 
+# Permalinks
 permalink: pretty
